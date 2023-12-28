@@ -6,7 +6,7 @@ let theme = createTheme({
     primary: {
       main: '#90A955',
       contrastText: '#202020',
-      bacground: '#F5F2E8 ',
+      background: '#F5F2E8 ',
     },
   },
 });

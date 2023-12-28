@@ -13,14 +13,14 @@ export const NavLinkItem = styled(NavLink)`
   border-radius: 5px;
   padding: 2px;
   box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
-  background-color: #64abc9;
+  background-color: #90A955;
   display: block;
     text-align: center;
 
   &.active {
-    background-color: #336699;
+    background-color: #78982d;
   }
   :hover {
-    background-color: #336699;
+    background-color: #78982d;
   }
 `;

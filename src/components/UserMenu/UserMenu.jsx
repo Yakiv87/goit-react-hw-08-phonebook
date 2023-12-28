@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { logOut } from '../../redux/auth/operations';
 import { useSelector } from 'react-redux';
-import { selectUser } from 'redux/auth/selectors';
+import { selectUser } from '../../redux/auth/selectors';
 import { Button, Typography } from '@mui/material';
 import { Nav } from './UserMenu.styled';
 

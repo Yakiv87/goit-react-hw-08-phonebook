@@ -1,8 +1,8 @@
 import { useDispatch } from 'react-redux';
 
-import { logIn } from 'redux/auth/operations';
+import { logIn } from '../../redux/auth/operations';
 import { Box, Button, Container, TextField } from '@mui/material';
-import { Form } from './LoginForm.styled';
+import { Form } from '../LoginForm/LoginForm.styled';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();

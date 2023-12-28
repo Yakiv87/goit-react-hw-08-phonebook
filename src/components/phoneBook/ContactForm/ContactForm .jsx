@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContacts } from 'redux/contacts/operations';
+import { addContacts } from '../../../redux/contacts/operations';
 import { getContacts } from '../../../redux/contacts/selectors';
 import { Box, Button, TextField, Typography } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';

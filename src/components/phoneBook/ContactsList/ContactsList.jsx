@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteContacts } from 'redux/contacts/operations';
+import { deleteContacts } from '../../../redux/contacts/operations';
 import {
   getLoading,
   getError,
@@ -21,7 +21,7 @@ import {
   ListItemAvatar,
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { Item } from './ContactList.styled';
+import { Item } from '../ContactsList/ContactsList.styled';
 
 export const ContactsList = () => {
   const contacts = useSelector(selectVisibleContacts);
